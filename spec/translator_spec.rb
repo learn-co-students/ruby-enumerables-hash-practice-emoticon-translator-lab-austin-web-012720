@@ -138,5 +138,5 @@ describe "#get_english_meaning" do
     sorry_message = "Sorry, that emoticon was not found"
     expect(get_english_meaning("./lib/emoticons.yml", "$#$%{}*")).to eq(sorry_message)
   end
-
+/ w
 end
